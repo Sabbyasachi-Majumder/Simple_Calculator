@@ -1,2 +1,2 @@
 # Simple_Calculator
-A Simple Calculator created with React. 
+A Simple Calculator created with React basics . 
