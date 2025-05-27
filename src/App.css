@@ -1,0 +1,102 @@
+.App {
+  margin: none;
+  padding: none;
+  border: none;
+}
+
+.App-header {
+  background-color: #15202e;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.App-body {
+  background-color: #19659c;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.Output-Box {
+  background-color: #73cff7;
+  min-height: 15vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 33, 47);
+  width: 100%;
+  text-align: right;
+}
+
+.Output {
+  background-color: #73cff7;
+  color: rgb(8, 33, 47);
+  width: 100%; 
+}
+
+.Input-Box {
+  background-color: #5bafd8f7;
+  min-height: 15vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 33, 47);
+  width: 100%;
+  text-align: right;
+}
+
+.Input {
+  background-color: #5bafd8f7;
+  color: rgb(8, 33, 47);
+  width: 100%;
+}
+
+.Buttons-Area {
+  min-height: 60vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.numButton {
+  background-color: #1d5c8a;
+  font-size: 20px;
+  color: aqua;
+  border: none;
+  border: 0.1px solid white;
+}
+
+.numButton:hover {
+  background-color: #0e3551;
+  font-size: 20px;
+  color: aqua;
+  border: none;
+  border: 0.1px solid white;
+  
+}
+
+.opButton {
+  background-color: #092d47;
+  font-size: 20px;
+  color: aqua;
+  border: none;
+  border: 0.1px solid white;
+}
+
+.opButton:hover {
+  background-color: #3b89c0c1;
+  font-size: 20px;
+  color: aqua;
+  border: none;
+  border: 0.1px solid white;
+}
